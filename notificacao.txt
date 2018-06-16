@@ -1,0 +1,39 @@
+https://i.stack.imgur.com/XhbXL.gif
+
+
+
+
+import java.awt.AWTException;   
+import java.awt.Image;    
+import java.awt.SystemTray;  
+import java.awt.Toolkit;  
+import java.awt.TrayIcon;
+
+public class Principal {
+
+    Principal() {
+        initialize();
+    }
+
+    private void initialize() {
+        Image trayImage = Toolkit.getDefaultToolkit().getImage(this.getClass().getResource("icon.png"));
+        TrayIcon tray = new TrayIcon(trayImage, "Tray Icon Example");
+        SystemTray sysTray = SystemTray.getSystemTray();
+        tray.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(null, "clicou");
+            }
+        });
+        try {
+            sysTray.add(tray);
+        } catch (AWTException e) {
+            e.printStackTrace();
+        }
+        tray.displayMessage("Atenção!", "Clique aqui para abrir mais detalhes.", TrayIcon.MessageType.WARNING);
+    }
+
+    public static void main(String[] args) {
+        new Principal();
+    }
+}
