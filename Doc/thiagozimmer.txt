@@ -1,0 +1,5 @@
+15/06
+realizado prototipo das notificacoes
+
+21/06
+implementada a classe "notificacao" que tem como objetivo criar um balão de notificação com o metodo initialize();
