@@ -8,6 +8,26 @@ import java.util.List;
 
 public class Evento {
     
+    private String titulo;
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getTipoDoEvento() {
+        return tipoDoEvento;
+    }
+
+    public void setTipoDoEvento(String tipoDoEvento) {
+        this.tipoDoEvento = tipoDoEvento;
+    }
+    
+    private String tipoDoEvento;
+    
     private Date dataDoEvento;
 
     public Date getDataDoEvento() {
