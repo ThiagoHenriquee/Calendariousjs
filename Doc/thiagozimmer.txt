@@ -1,5 +1,10 @@
-15/06
+﻿15/06
+
 realizado prototipo das notificacoes
 
+
 21/06
+
 implementada a classe "notificacao" que tem como objetivo criar um balão de notificação com o metodo initialize();
+29/06
+iniciado a integracao das classes Tela.java e Eventos.java

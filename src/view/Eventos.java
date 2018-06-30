@@ -5,6 +5,9 @@
  */
 package view;
 
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
+
 /**
  *
  * @author Thiago
@@ -219,6 +222,9 @@ public class Eventos extends javax.swing.JFrame {
             }
         });
     }
+    DefaultTableModel t = new DefaultTableModel(new Object[] {"Dia","Mes","Evento"},0);
+        //Object l [] = new Object[]{listasalas.get(i).getCodigo(),listasalas.get(i).getDetalhe(),nome };
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuItem jMenuItem1;
