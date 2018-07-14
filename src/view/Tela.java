@@ -8,7 +8,8 @@ package view;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import model.Cadas_Evento;
+import model.Evento;
+
 
 /**
  *
@@ -78,7 +79,6 @@ public class Tela extends javax.swing.JFrame {
 
         edit.setText("Editar");
 
-        excluir.setSelected(true);
         excluir.setText("Excluir");
 
         tabela.setModel(new javax.swing.table.DefaultTableModel(
@@ -253,6 +253,7 @@ public class Tela extends javax.swing.JFrame {
 
     private void DiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DiaActionPerformed
         // TODO add your handling code here:
+        
     }//GEN-LAST:event_DiaActionPerformed
 
     private void addActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addActionPerformed
@@ -265,10 +266,6 @@ public class Tela extends javax.swing.JFrame {
         }
         
     }//GEN-LAST:event_addActionPerformed
-    
-    //  Cadas_Evento c = new Cadas_Evento();
-    
-    
     
     
     /**

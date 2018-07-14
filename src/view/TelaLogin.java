@@ -126,14 +126,17 @@ public class TelaLogin extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         if(txtUsuario.getText().equals("admin") && txtSenha.getText().equals("admin")     ){
             JOptionPane.showMessageDialog(null,"Bem Vindo" );   
-            
+                    java.awt.EventQueue.invokeLater(new Runnable() {
+                     public void run() {
+                         new Tela().setVisible(true);
+                        dispose();
+                     }
+                 });
         }else{           
             JOptionPane.showMessageDialog(null,"Senha Incorreta");
-            
-        
         
     }//GEN-LAST:event_jButton1ActionPerformed
-
+    }
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
