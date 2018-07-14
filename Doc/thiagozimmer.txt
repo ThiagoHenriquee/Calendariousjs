@@ -4,7 +4,13 @@ realizado prototipo das notificacoes
 
 
 21/06
-
 implementada a classe "notificacao" que tem como objetivo criar um balão de notificação com o metodo initialize();
+
 29/06
 iniciado a integracao das classes Tela.java e Eventos.java
+
+06/07
+Não foi possivel realizar a atividade combinada de adicionar a função no botao pois acabei viajando a trabalho.
+
+13/07
+Incluido a funcao no botao adicionar e alterado o jframe para encerrar ao chamar outro jframe
