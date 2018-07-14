@@ -1,8 +1,11 @@
 15/06
-realizado prototipo das telas de cadastro editar e excluir
+Foi realizado prototipos das telas de cadastro,editar e excluir
 
 28/06
-adicionado campo hora e minuto
+adicionado campo hora e minuto, e feito modificação junto ao Thiago Zimmer no cadas_evento.java
 
 5/07
-alterado tela de cadastro
+Alteração da tela cadastro e lista de eventos ( Junção delas )
+
+13/07
+Feito a conexão do banco  e não conseguir concluir a função que foi requira para mim que era a de excluir.
